@@ -11,7 +11,6 @@ com\example\demo\controller\DepartmentController.class
 com\example\demo\repository\DocumentRepository.class
 com\example\demo\model\LogRecord.class
 com\example\demo\model\GraduationUser.class
-com\example\demo\config\CorsConfig.class
 com\example\demo\repository\UserRepository.class
 com\example\demo\config\WebConfig.class
 com\example\demo\repository\StudentRepository.class
@@ -25,7 +24,6 @@ com\example\demo\service\StudentService.class
 com\example\demo\config\WebSecurityConfig.class
 com\example\demo\model\Faculty.class
 com\example\demo\repository\RoleRepository.class
-com\example\demo\config\CorsConfig$1.class
 com\example\demo\model\Student.class
 com\example\demo\model\User.class
 com\example\demo\repository\LogRecordRepository.class

@@ -25,7 +25,6 @@ C:\Users\talha\login-demo\backend\src\main\java\com\example\demo\repository\User
 C:\Users\talha\login-demo\backend\src\main\java\com\example\demo\service\MailService.java
 C:\Users\talha\login-demo\backend\src\main\java\com\example\demo\repository\DepartmentRepository.java
 C:\Users\talha\login-demo\backend\src\main\java\com\example\demo\config\ApplicationStartupRunner.java
-C:\Users\talha\login-demo\backend\src\main\java\com\example\demo\config\CorsConfig.java
 C:\Users\talha\login-demo\backend\src\main\java\com\example\demo\controller\CurriculumController.java
 C:\Users\talha\login-demo\backend\src\main\java\com\example\demo\DemoApplication.java
 C:\Users\talha\login-demo\backend\src\main\java\com\example\demo\model\User.java
