@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graduation Management System - Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+<div class="wrapper">
+    <header>
+        <div class="logo">IZMIR INSTITUTE OF TECHNOLOGY</div>
+        <div class="tagline">Turkey's Technology Base</div>
+    </header>
+
+    <main>
+        <div class="logout-btn" onclick="showLogoutModal()">
+            <img src="https://cdn-icons-png.flaticon.com/512/1828/1828479.png" alt="Logout" />
+        </div>
+
+        <!-- Logout Modal -->
+        <div id="logoutModal" class="modal">
+            <div class="modal-content">
+                <p>Are you sure you want to quit?</p>
+                <div class="modal-buttons">
+                    <button onclick="hideLogoutModal()">Cancel</button>
+                    <button onclick="quitSystem()">Quit</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="footer-note">
+        Türkçe halini ziyaret edin
+    </div>
+
+    <footer>
+        &copy; 2023 Graduation Management System—Izmir Institute of Technology
+    </footer>
+</div>
+</body>
+<script>
+    function showLogoutModal() {
+        document.getElementById('logoutModal').style.display = 'flex';
+    }
+
+    function hideLogoutModal() {
+        document.getElementById('logoutModal').style.display = 'none';
+    }
+
+    function quitSystem() {
+        // Example action: redirect or close
+        window.location.href = "logout.html"; // Replace with your actual logout logic
+    }
+</script>
+
+</html>
